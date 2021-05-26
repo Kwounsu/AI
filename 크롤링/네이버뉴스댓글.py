@@ -7,6 +7,7 @@ import csv
 import os
 
 
+# crawling comments on the Naver News politics section of 중앙일보.
 def get_comments(url, imp_time=5, delay_time=0.1):
     comment_url = url + '&m_view=1'
     # Web driver
